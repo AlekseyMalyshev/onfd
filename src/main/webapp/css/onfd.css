@@ -1,0 +1,147 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 10, 2015, 3:33:01 PM
+    Author     : Aleksey Malyshev
+*/
+body {
+    font-family: arial, sans-serif;
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    background-color: gold;
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+nav img {
+    float: left;
+}
+
+nav div.name {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    margin: 5px 10px 0 10px;
+}
+
+nav ul {
+    margin: 0;
+    font-size: 14px;
+    display: inline-block;
+    float: right;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 10px 5px 0;
+}
+
+nav ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+span.error {
+    font-size: 12px;
+    color: red;
+}
+
+form table.edit tr>td {
+    padding: 3px 0 3px 5px;
+}
+
+td.measure {
+    text-align: center;
+}
+
+td.date {
+    text-align: center;
+    width: 50px;
+}
+
+th.measures {
+    text-align: center;
+    width: max-content;
+}
+
+table.measures {
+    border: none;
+    border-collapse: collapse;
+}
+
+table.measures tr:nth-child(2n) {
+    background: #EEE
+}
+
+table.measures th {
+    border: solid;
+    border-width: 0 0 1px 0;
+}
+
+table.measures tr>td {
+    padding: 5px 0;
+}
+
+th, td {
+    border: none;
+    width: 100px;
+}
+
+input.measure {
+    text-align: right;
+    width: 35px;
+}
+
+input.manuf, select.manuf {
+    width: 200px;
+//    : 5;
+}
+
+input.name {
+    width: 200px;
+}
+
+input.pass {
+    width: 100px;
+}
+
+td.label, th.label {
+    text-align: left;
+    width: max-content;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+a.Undefined {
+}
+
+a.Small {
+    background-color: red;
+}
+
+a.Tight {
+    background-color: yellow;
+}
+
+a.Fit {
+    background-color: green;
+}
+
+a.Loose {
+    background-color: blue;
+}
+
+a.Large {
+    background-color: aqua;
+}
